@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products & Boards • CheeseBoards and Thangs</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="images/logo.png" alt="CheeseBoards and Thangs logo" class="logo" />
+      <span class="brand-text">CheeseBoards and Thangs</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products &amp; Boards</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="btn primary" id="bookBtnHeader">Book a Board Here</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Products &amp; Boards</h1>
+      <p>Browse a few examples below — replace these photos with your own later.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container gallery">
+      <figure><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Signature board" /><figcaption>Signature Board</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=1200&auto=format&fit=crop" alt="Event spread" /><figcaption>Event Spread</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1604908554007-1c3a8751b39f?q=80&w=1200&auto=format&fit=crop" alt="Olive oils &amp; balsamic" /><figcaption>Olive Oils &amp; Balsamic</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="Antiques &amp; gifts" /><figcaption>Antiques &amp; Gifts</figcaption></figure>
+    </div>
+    <div class="container center">
+      <button class="btn primary" id="bookBtnProducts">Book a Board Here</button>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <strong>CheeseBoards and Thangs</strong><br/>
+      <a href="https://maps.google.com/?q=9924+Davis+St+Ste+5,+Braselton,+GA+30517" target="_blank" rel="noopener">9924 Davis St Ste 5, Braselton, GA 30517</a><br/>
+      <a href="tel:+16302420551">(630) 242-0551</a> • <a href="mailto:cheeseboardsandthangs13@gmail.com">cheeseboardsandthangs13@gmail.com</a>
+    </div>
+    <div class="footer-right">
+      <a class="btn outline" href="https://www.instagram.com/cheeseboardsandthangs/" target="_blank" rel="noopener">Check Us Out on Insta</a>
+      <div class="footer-copy">© 2025 CheeseBoards and Thangs | Designed in Braselton, GA</div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="bookModal" aria-hidden="true">
+  <div class="modal-backdrop" id="closeModal"></div>
+  <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="bookTitle">
+    <button class="modal-close" id="closeX" aria-label="Close">×</button>
+    <h3 id="bookTitle">Choose Your Order Type</h3>
+    <div class="modal-grid">
+      <a class="card-link" href="https://docs.google.com/forms/d/1K-_Gys3tQ1IApfcLrNdpiJYbpvHzPGJhZJj0GF5qIEc/viewform?edit_requested=true" target="_blank" rel="noopener"><div class="card"><h4>Grazing Tables &amp; Events</h4><p>Perfect for parties, weddings, and corporate events.</p></div></a>
+      <a class="card-link" href="https://docs.google.com/forms/d/1HbwPBhBJros0tTiuoQIPr63e5cFpIZsNgsDaeRAkTkU/viewform?edit_requested=true" target="_blank" rel="noopener"><div class="card"><h4>Boards &amp; Smaller Items</h4><p>Ideal for date nights, gifts, and small gatherings.</p></div></a>
+      <a class="card-link" href="https://docs.google.com/forms/d/1lyE27uIjoPTgkGUwC5fmnl_7eY_wXz8RtSMTeQkTj-Y/viewform?ts=67003a7e&edit_requested=true" target="_blank" rel="noopener"><div class="card"><h4>Thanksgiving Orders</h4><p>Seasonal offerings.</p></div></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

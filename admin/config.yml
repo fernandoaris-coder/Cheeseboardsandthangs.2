@@ -1,5 +1,6 @@
 backend:
-  name: github
+  name: git-gateway
+  branch: main
   repo: fernandoaris-coder/Cheeseboardsandthangs.2
   branch: main
 
